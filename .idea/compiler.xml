@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-microservice-forex-service" />
+        <module name="spring-boot-microservice-auth-service" />
+        <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order)" />
+        <module name="spring-boot-microservice-eureka-naming-server" />
+        <module name="spring-boot-microservice-currency-conversion" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-microservice-auth-service" target="1.5" />
+      <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order)" target="1.5" />
+      <module name="spring-boot-microservice-currency-conversion" target="1.5" />
+      <module name="spring-boot-microservice-eureka-naming-server" target="1.5" />
+      <module name="spring-boot-microservice-forex-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

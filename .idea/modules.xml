@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot4/spring-boot-microservice-auth-service.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot4/spring-boot-microservice-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot5/spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order).iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot5/spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order).iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot2/spring-boot-microservice-currency-conversion.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot2/spring-boot-microservice-currency-conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot3/spring-boot-microservice-eureka-naming-server.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot3/spring-boot-microservice-eureka-naming-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot/spring-boot-microservice-forex-service.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot/spring-boot-microservice-forex-service.iml" />
+    </modules>
+  </component>
+</project>
