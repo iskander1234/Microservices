@@ -24,7 +24,7 @@ public class LoginController {
         this.loginService = loginService;
     }
 
-//    @PostMapping(value = WebResourceKeyConstants.LOGIN)
+    @PostMapping(value = WebResourceKeyConstants.LOGIN)
     @ApiOperation(value = "This is login api", notes = "Request contains username and password")
     public ResponseEntity<String> loginUser(@RequestBody LoginRequestDTO requestDTO, HttpServletRequest request) {
 
