@@ -1,6 +1,6 @@
 package com.example.loginservice.constants;
 
-
+/*THIS CLASS CONTAINS CUSTOM ERROR MESSAGES FOR VARIOUS EXCEPTIONS*/
 public class ErrorMessageConstants {
 
     public interface ForgetPassword {

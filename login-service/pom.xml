@@ -99,13 +99,6 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.1</version>
         </dependency>
-
-        <!--Hystrix-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
-        </dependency>
-
     </dependencies>
 
     <dependencyManagement>

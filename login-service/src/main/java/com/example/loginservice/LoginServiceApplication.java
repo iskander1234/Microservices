@@ -8,8 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
-@EnableHystrix
-@EnableCircuitBreaker
 public class LoginServiceApplication {
 
     public static void main(String[] args) {

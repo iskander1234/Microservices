@@ -1,6 +1,6 @@
 package com.example.loginservice.constants;
 
-
+/*THIS CLASS INCLUDES REGEX PATTERNS*/
 public class PatternConstants {
 
     public interface NetworkConstants {

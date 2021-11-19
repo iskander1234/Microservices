@@ -9,6 +9,7 @@ import java.util.Date;
 @Getter
 @Setter
 @MappedSuperclass
+
 public abstract class BaseEntity<T> {
 
     @Id

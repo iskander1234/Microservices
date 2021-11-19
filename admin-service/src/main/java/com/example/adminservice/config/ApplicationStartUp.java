@@ -1,5 +1,4 @@
 package com.example.adminservice.config;
-
 import com.example.adminservice.entity.Admin;
 import com.example.adminservice.repo.AdminRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,5 +40,3 @@ public class ApplicationStartUp {
         return admin;
     }
 }
-
-
