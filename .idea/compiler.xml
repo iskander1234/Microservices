@@ -6,8 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.auth)" />
-        <module name="spring-boot-microservice-auth-service (2) (com.in28minutes.springboot.microservice.example.order)" />
         <module name="spring-boot-microservice-forex-service" />
         <module name="spring-boot-microservice-eureka-naming-server" />
         <module name="spring-boot-microservice-currency-conversion" />
