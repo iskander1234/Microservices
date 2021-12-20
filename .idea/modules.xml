@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admin-service/admin-service.iml" filepath="$PROJECT_DIR$/admin-service/admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-service/login-service.iml" filepath="$PROJECT_DIR$/login-service/login-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot4/spring-boot-microservice-auth-service.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot4/spring-boot-microservice-auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot5/spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order).iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot5/spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order).iml" />
       <module fileurl="file://$PROJECT_DIR$/MicroservicesSpringBoot2/spring-boot-microservice-currency-conversion.iml" filepath="$PROJECT_DIR$/MicroservicesSpringBoot2/spring-boot-microservice-currency-conversion.iml" />

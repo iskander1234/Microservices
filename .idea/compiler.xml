@@ -6,19 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="login-service" />
+        <module name="auth-service" />
         <module name="spring-boot-microservice-forex-service" />
         <module name="spring-boot-microservice-eureka-naming-server" />
         <module name="spring-boot-microservice-currency-conversion" />
+        <module name="admin-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-service" target="1.5" />
+      <module name="auth-service" target="1.5" />
+      <module name="login-service" target="1.5" />
       <module name="spring-boot-microservice-auth-service" target="1.8" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.auth)" target="1.8" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order)" target="1.8" />
       <module name="spring-boot-microservice-auth-service (2) (com.in28minutes.springboot.microservice.example.order)" target="1.8" />
-      <module name="spring-boot-microservice-currency-conversion" target="1.8" />
-      <module name="spring-boot-microservice-eureka-naming-server" target="1.8" />
-      <module name="spring-boot-microservice-forex-service" target="1.8" />
+      <module name="spring-boot-microservice-currency-conversion" target="1.5" />
+      <module name="spring-boot-microservice-eureka-naming-server" target="1.5" />
+      <module name="spring-boot-microservice-forex-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

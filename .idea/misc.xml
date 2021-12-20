@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/MicroservicesSpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/MicroservicesSpringBoot2/pom.xml" />
         <option value="$PROJECT_DIR$/MicroservicesSpringBoot3/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/login-service/pom.xml" />
       </list>
     </option>
   </component>
