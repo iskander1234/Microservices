@@ -8,27 +8,32 @@
         <outputRelativeToContentRoot value="true" />
         <module name="login-service" />
         <module name="auth-service" />
+        <module name="spring-boot-microservice-currency-conversion" />
         <module name="spring-boot-microservice-forex-service" />
         <module name="spring-boot-microservice-eureka-naming-server" />
-        <module name="spring-boot-microservice-currency-conversion" />
+        <module name="mailsensder" />
         <module name="admin-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="admin-service" target="1.5" />
-      <module name="auth-service" target="1.5" />
-      <module name="login-service" target="1.5" />
+      <module name="admin-service" target="1.8" />
+      <module name="auth-service" target="1.8" />
+      <module name="login-service" target="1.8" />
+      <module name="mailsensder" target="1.8" />
       <module name="spring-boot-microservice-auth-service" target="1.8" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.auth)" target="1.8" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order)" target="1.8" />
       <module name="spring-boot-microservice-auth-service (2) (com.in28minutes.springboot.microservice.example.order)" target="1.8" />
-      <module name="spring-boot-microservice-currency-conversion" target="1.5" />
-      <module name="spring-boot-microservice-eureka-naming-server" target="1.5" />
-      <module name="spring-boot-microservice-forex-service" target="1.5" />
+      <module name="spring-boot-microservice-currency-conversion" target="1.8" />
+      <module name="spring-boot-microservice-eureka-naming-server" target="1.8" />
+      <module name="spring-boot-microservice-forex-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-service" options="-parameters" />
+      <module name="login-service" options="-parameters" />
+      <module name="mailsensder" options="-parameters" />
       <module name="spring-boot-microservice-auth-service" options="-parameters" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.auth)" options="-parameters" />
       <module name="spring-boot-microservice-auth-service (1) (com.in28minutes.springboot.microservice.example.order)" options="-parameters" />
