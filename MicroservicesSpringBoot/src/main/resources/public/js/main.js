@@ -9,7 +9,7 @@ app.controller("ForexController", function ($scope, $http){
     });
 
     $scope.delete = function (item){
-        $http.delete("http://localhost:8099/forex-services/List/" + item.id)
+        $http.delete("http://localhost:8099/forex-services/List/" + item.id).
         then(rest => {
             let ix = $scope.websites.map(item => item.id).indexOf(item.id);
             $scope.websites.splice(ix,1);
